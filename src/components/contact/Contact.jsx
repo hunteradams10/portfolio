@@ -9,7 +9,7 @@ function Contact() {
       <div className="contact-bg"></div>
       <div className="contact-wrapper">
         <div className="contact-left">
-          <h1 className="contact-title">Contact Me:</h1>
+          <h1 className="contact-title">Contact:</h1>
           <div className="contact-info-icon">
             <img src={Skeleton} alt="" className="c-icon" />
           </div>

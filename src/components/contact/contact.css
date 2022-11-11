@@ -1,13 +1,6 @@
 .contact{
-    height: 100vh;
+    height: 0 auto;
     position: relative;
-}
-
-.contact-bg{
-    width:20px;
-    height: 100%;
-    background-color: green;
-    position: absolute;
 }
 
 .contact-wrapper{
@@ -79,4 +72,33 @@
 
 .resume:visited{
     color: black;
+}
+
+@media screen and (max-width: 600px){
+
+    .contact{
+        padding: 0px;
+        margin: none;
+        height: auto;
+    }
+
+    .contact-wrapper{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 50px;
+        height: 10vh;
+        margin: 0px;
+    }
+
+    .contact-info-icon{
+        display: none;
+    }
+
+    .contact-title{
+        font-size: 30px;
+    }
+
+    .contact-description{
+        padding: 40px;
+    }
 }
