@@ -1,0 +1,82 @@
+.contact{
+    height: 100vh;
+    position: relative;
+}
+
+.contact-bg{
+    width:20px;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+}
+
+.contact-wrapper{
+    padding:50 px;
+    display: flex;
+}
+
+.contact-left{
+    flex: 1;
+}
+
+.contact-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-title{
+    font-size: 60px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    width: 70%;
+    position: relative;
+}
+
+.contact-info-item{
+    display: flex;
+    align-items: center;
+}
+
+.c-icon{
+    padding: 50px;
+}
+
+.contact-description{
+    font-weight: 200;
+}
+
+.contact-description{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.boundary-contact-box{
+    border: 1px dotted black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-heading{
+    padding-bottom: 10px;
+}
+
+.resume{
+    text-decoration: none;
+    color: black;
+}
+
+.resume:visited{
+    color: black;
+}

@@ -1,0 +1,50 @@
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-left{
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.a-card.bg{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: darkgray;
+}
+
+.about-right{
+    flex: 1;
+}
+
+.a-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.a-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-title{
+    font-weight: 400;
+}
+
+.about-text{
+    margin: 20px 0px;
+    font-weight: 300;
+    padding-right: 100px;
+}
