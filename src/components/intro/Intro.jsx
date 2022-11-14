@@ -1,6 +1,5 @@
 import React from 'react';
-import "./intro.css"
-import Art from '../../img/art.jpg'
+import "./intro.css";
 
 function Intro() {
   return (
