@@ -76,7 +76,7 @@
     right: 0;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     .intro{
         flex-direction: column;
         /* padding: 20px; */
